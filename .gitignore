@@ -21,3 +21,10 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+# ignore vsc workspaces
+*.code-workspace
+
+# ignore log directory and persistant data directory as these are optional and can be renamed
+logs/
+persist/
